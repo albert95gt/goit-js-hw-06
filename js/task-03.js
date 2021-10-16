@@ -28,7 +28,7 @@ galleryEl.style.marginTop = "-20px";
 galleryEl.style.marginBottom = "-16px";
 
 const galleryItems = galleryEl.querySelectorAll('li');
-console.log(galleryItems);
+
 galleryItems.forEach(item => `${item.style.listStyle = "none"}${item.style.marginTop = "20px"}${item.style.marginLeft = "20px"} `)
 
  
