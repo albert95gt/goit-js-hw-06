@@ -2,7 +2,7 @@ const inputEl = document.querySelector('#validation-input');
 
 const onValidationInput = (element) => {
     
-    if (element.currentTarget.value.length >= inputEl.dataset.length) {
+    if (element.currentTarget.value.length === Number(inputEl.dataset.length)) {
         
         element.currentTarget.classList.add("valid");
         
